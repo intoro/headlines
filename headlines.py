@@ -12,6 +12,11 @@ RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
              'iol': 'http://www.iol.co.za/cmlink/1.640',
              'ti': 'http://www.businessinsider.com/sai/rss',
              'bi': 'http://uk.businessinsider.com/rss',
+             'fn': 'http://blog.foodnetwork.com/feed/',
+             'food': 'http://www.food.com/rss',
+             'med': 'https://medium.com/feed/@Medium',
+             'rs': 'http://www.rollingstone.com/rss',
+             'dlish': 'http://dish.allrecipes.com/feed/',
              'hn' : 'https://news.ycombinator.com/rss'}
 
 
