@@ -1,0 +1,19 @@
+<body>
+    <h1>Headlines</h1>
+    {% for article in articles %}
+        <b><a href="{{article.link}}">{{article.title}}</a></b><br />
+        <i>{{article.published}}</i>
+        <b><a href="{{article.comments}}">comments</a></b>
+        <p>{{article.description}}</p>
+        <hr />
+    {% endfor %}
+</body>
+
+
+<!-- <item>
+  <title>Electronic meters’ false readings up to six times higher than actual consumption</title>
+  <link>http://sciencebulletin.org/archives/10940.html</link>
+  <pubDate>Sun, 5 Mar 2017 00:13:59 +0000</pubDate>
+  <comments>https://news.ycombinator.com/item?id=13793771</comments>
+  <description><![CDATA[<a href="https://news.ycombinator.com/item?id=13793771">Comments</a>]]></description>
+</item> -->
