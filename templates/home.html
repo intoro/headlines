@@ -1,5 +1,22 @@
 <body>
     <h1>Headlines</h1>
+    <form>
+      <select name="publication">
+        <option value="cnn">cnn</option>
+        <option value="hn">Hacker News</option>
+        <option value="ti">Tech Insider</option>
+        <option value="biuk">Business Insider UK</option>
+        <option value="bi">Business Insider </option>
+        <option value="Fox">Fox News</option>
+        <option value="bbc">BBC News</option>
+
+
+      </select>
+      <input type="text" name="publication" placeholder="search" />
+      <input type="submit" value="Submit" />
+    </form>
+
+
     {% for article in articles %}
         <b><a href="{{article.link}}">{{article.title}}</a></b><br />
         <i>{{article.published}}</i>
