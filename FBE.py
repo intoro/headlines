@@ -18,7 +18,7 @@ RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
              'fox': 'http://feeds.foxnews.com/foxnews/latest',
              'iol': 'http://www.iol.co.za/cmlink/1.640',
              'tech insider': 'http://www.businessinsider.com/sai/rss',
-             'business insideri': 'http://uk.businessinsider.com/rss',
+             'business insideruk': 'http://uk.businessinsider.com/rss',
              'food network': 'http://blog.foodnetwork.com/feed/',
              'food': 'http://www.food.com/rss',
              'rollingstone': 'http://www.rollingstone.com/rss',
@@ -35,7 +35,7 @@ RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
 
              'betterhumans': 'https://betterhumans.coach.me/feed' }
 
-DEFAULTS = {'publication':'bbc',
+DEFAULTS = {'publication':'hacker news',
             'city': 'Madrid',
             'currency_from':'GBP',
             'currency_to':'USD'
